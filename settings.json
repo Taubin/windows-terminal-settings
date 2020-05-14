@@ -1,0 +1,164 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "colorScheme": "One Half Dark",
+            "fontFace": "Fira Code iScript",
+            "fontSize": 12,
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "colorScheme": "One Half Dark",
+            "fontFace": "Fira Code iScript",
+            "fontSize": 12,
+            "hidden": false
+        },
+        {
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "source": "Windows.Terminal.Wsl",
+            "colorScheme": "Misterioso",
+            "fontFace": "Fira Code iScript",
+            "fontSize": 12
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure",
+            "colorScheme": "One Half Dark",
+            "fontFace": "Fira Code iScript",
+            "fontSize": 12
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "WildCherry",
+            "black": "#000507",
+            "red": "#d94085",
+            "green": "#2ab250",
+            "yellow": "#ffd16f",
+            "blue": "#883cdc",
+            "purple": "#ececec",
+            "cyan": "#c1b8b7",
+            "white": "#fff8de",
+            "brightBlack": "#009cc9",
+            "brightRed": "#da6bac",
+            "brightGreen": "#f4dca5",
+            "brightYellow": "#eac066",
+            "brightBlue": "#308cba",
+            "brightPurple": "#ae636b",
+            "brightCyan": "#ff919d",
+            "brightWhite": "#e4838d",
+            "background": "#1f1726",
+            "foreground": "#dafaff"
+          },
+          {
+            "name": "Whimsy",
+            "black": "#535178",
+            "red": "#ef6487",
+            "green": "#5eca89",
+            "yellow": "#fdd877",
+            "blue": "#65aef7",
+            "purple": "#aa7ff0",
+            "cyan": "#43c1be",
+            "white": "#ffffff",
+            "brightBlack": "#535178",
+            "brightRed": "#ef6487",
+            "brightGreen": "#5eca89",
+            "brightYellow": "#fdd877",
+            "brightBlue": "#65aef7",
+            "brightPurple": "#aa7ff0",
+            "brightCyan": "#43c1be",
+            "brightWhite": "#ffffff",
+            "background": "#29283b",
+            "foreground": "#b3b0d6"
+          },
+          {
+            "name": "Spacedust",
+            "black": "#6e5346",
+            "red": "#e35b00",
+            "green": "#5cab96",
+            "yellow": "#e3cd7b",
+            "blue": "#0f548b",
+            "purple": "#e35b00",
+            "cyan": "#06afc7",
+            "white": "#f0f1ce",
+            "brightBlack": "#684c31",
+            "brightRed": "#ff8a3a",
+            "brightGreen": "#aecab8",
+            "brightYellow": "#ffc878",
+            "brightBlue": "#67a0ce",
+            "brightPurple": "#ff8a3a",
+            "brightCyan": "#83a7b4",
+            "brightWhite": "#fefff1",
+            "background": "#0a1e24",
+            "foreground": "#ecf0c1"
+          },
+          {
+            "name": "Misterioso",
+            "black": "#000000",
+            "red": "#ff4242",
+            "green": "#74af68",
+            "yellow": "#ffad29",
+            "blue": "#338f86",
+            "purple": "#9414e6",
+            "cyan": "#23d7d7",
+            "white": "#e1e1e0",
+            "brightBlack": "#555555",
+            "brightRed": "#ff3242",
+            "brightGreen": "#74cd68",
+            "brightYellow": "#ffb929",
+            "brightBlue": "#23d7d7",
+            "brightPurple": "#ff37ff",
+            "brightCyan": "#00ede1",
+            "brightWhite": "#ffffff",
+            "background": "#2d3743",
+            "foreground": "#e1e1e0"
+          },
+          {
+            "name": "ToyChest",
+            "black": "#2c3f58",
+            "red": "#be2d26",
+            "green": "#1a9172",
+            "yellow": "#db8e27",
+            "blue": "#325d96",
+            "purple": "#8a5edc",
+            "cyan": "#35a08f",
+            "white": "#23d183",
+            "brightBlack": "#336889",
+            "brightRed": "#dd5944",
+            "brightGreen": "#31d07b",
+            "brightYellow": "#e7d84b",
+            "brightBlue": "#34a6da",
+            "brightPurple": "#ae6bdc",
+            "brightCyan": "#42c3ae",
+            "brightWhite": "#d5d5d5",
+            "background": "#24364b",
+            "foreground": "#31d07b"
+          }
+      ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
