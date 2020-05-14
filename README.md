@@ -6,3 +6,5 @@ A backup repository I created to be able to share my windows-terminal setup acro
 
 ### Dependencies
 This windows terminal setup requires the following packages and fonts:
+
+[Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
